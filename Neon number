@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+  int a;
+  int sum=0;
+  printf("ENTER A NUMBER\n");
+  scanf("%d",&a);
+  int c=a*a;
+  while(c!=0)
+  {
+    int rem =c%10;
+    sum=sum+rem;
+    c=c/10;
+  }
+  if(a==sum)
+  {
+    printf("THE ENTERED NUMBER IS NEON");
+  }
+  else
+  {
+    printf("THE ENTERED NUMBER IS NOT NEON");
+  }
+}
