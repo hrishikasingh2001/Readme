@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+  int CP,SP;
+  printf("enter cost price and selling price =\n");
+  scanf("%d %d ",&CP,&SP);
+  int  R = SP-CP;
+  int s= CP-SP;
+  if(R>0)
+  {
+    printf("there is profit and the profit is %d",R);
+  }
+  else if (R<0)
+  {
+    printf("there is loss and the loss is %d",s);
+  }
+  else
+  {
+    printf("there is neither profit nor loss %d",R);
+  }
+}
