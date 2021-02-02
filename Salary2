@@ -1,0 +1,15 @@
+#include <stdio.h> 
+void main() 
+{ 
+float BS,DA,HRA,PF,NS; 
+BS = 50000; 
+printf("the basic salary of employee is %f",BS); 
+DA = (BS*25)/100; 
+printf("\nthe da is %f",DA); 
+HRA = (BS*15)/100; 
+printf("\nthe hra is %f",HRA); 
+PF =0.10*(BS+DA+HRA); 
+printf("\nthe pf is %f",PF); 
+NS = (BS+DA+HRA)-PF; 
+printf("\nnet salary of employee is %f",NS); 
+} 
